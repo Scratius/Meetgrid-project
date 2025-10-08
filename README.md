@@ -37,7 +37,7 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone https://github.com/ВАШ_НИК/meetgrid-project.git
+    git clone https://github.com/Scratius/meetgrid-project.git
     ```
 
 2.  **Перейдите в папку проекта:**
