@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeetGrid - Простое планирование встреч</title>
+    <!-- Подключаем шрифты от Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Подключаем наш файл со стилями -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>MeetGrid</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="event-creator-card">
+                <h2>Создать новое событие</h2>
+                <p class="subtitle">Найдите идеальное время для вашей группы за минуту.</p>
+
+                <form id="create-event-form">
+                    <div class="form-group">
+                        <label for="event-title">Название события</label>
+                        <input type="text" id="event-title" name="event-title" placeholder="Например, 'Встреча по проекту'">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="event-description">Описание (необязательно)</label>
+                        <textarea id="event-description" name="event-description" rows="3" placeholder="Детали встречи, повестка дня..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Выберите возможные даты и время</label>
+                        <div class="time-selector-placeholder">
+                            🗓️ Здесь будет интерактивный календарь, где вы сможете кликать и выделять удобные временные слоты.
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="cta-button">Создать и получить ссылку</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MeetGrid. Учебный проект.</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем наш JavaScript файл -->
+    <script src="script.js"></script>
+</body>
+</html>
