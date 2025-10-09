@@ -63,6 +63,6 @@
 | **Юрий Мяснянкин** (Team Lead)             | Full-Stack Разработчик | [yuriy-myasnyankin](https://github.com/Scratius)    |
 | **Владимир Сиротенко**                     | Backend Разработчик   | [vladimir-sirotenko](https://github.com/SVokaI)     |
 | **Дмитрий Красиков**                       | Frontend Разработчик  | [dmitri-krasikov](https://github.com/demonically)   |
-| **Иван Демидов**                           | Frontend Разработчик  | `[НИК ИВАНА]`    |
+| **Иван Демидов**                           | Frontend Разработчик  | [ivan-denidow](https://github.com/ivvan1955)    |
 
 ---
